@@ -1,24 +1,18 @@
-# README
+// FIND ME ON
+> https://marvel-finder.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<br>
+<br>
 
-Things you may want to cover:
+// BRIEFING
 
-* Ruby version
+This project is an API-based finder for Marvel comics, heroes and villains. 
+<br><br>
+The goal of the project is to create a Rails app with data being provided from an API and practice CSS/JS animations. 
 
-* System dependencies
+<br>
+<br>
 
-* Configuration
+// PLAY WITH ME
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can just research some hero or sign up to create a list of your favourite ones.
