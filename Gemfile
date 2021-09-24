@@ -47,3 +47,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Custom gems
 gem 'simple_form'
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'marvel_api'
