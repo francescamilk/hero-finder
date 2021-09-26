@@ -45,7 +45,11 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# .env 
+gem 'dotenv-rails', groups: [:development, :test]
+
 # Custom gems
 gem 'simple_form'
-gem 'dotenv-rails', groups: [:development, :test]
 gem 'marvel_api'
+gem 'jquery-rails'
+# gem 'cdnjs-rails'

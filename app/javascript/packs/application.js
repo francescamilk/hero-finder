@@ -15,3 +15,10 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+// Internal imports 
+import { scrollAnimation } from "../plugins/init_scrollAnimation";
+
+document.addEventListener('turbolinks:load', () => {
+  scrollAnimation();
+});
