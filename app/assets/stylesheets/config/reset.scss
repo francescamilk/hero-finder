@@ -2,12 +2,29 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: $mWhite;
+  background-color: $mBlue;
   overflow-x: hidden;
 }
 
-a,
+a {
+  text-decoration: none;
+  color: $textMain;
+}
+
 a:hover {
   text-decoration: none;
+  color: $textStandOut;
+}
+
+h1 {
+  color: $textStandOut;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   color: $textMain;
 }

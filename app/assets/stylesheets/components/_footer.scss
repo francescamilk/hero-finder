@@ -1,5 +1,7 @@
 footer {
   padding: 10px 0;
+  height: 10vh;
+  max-height: 10vh;
 }
 
 .f-content {
@@ -11,9 +13,19 @@ footer {
 .f-credits {
   display: flex;
   align-items: center;
+  
+  p,
+  a {
+    color: $mWhite;
+    font-weight: 300;
+  }
+  
+  a:hover {
+    color: $mRed;
+  }
 }
 
 #f-icon {
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
 }

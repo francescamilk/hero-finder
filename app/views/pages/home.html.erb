@@ -7,4 +7,12 @@
   <%= image_tag 'ironman.png', id: 'ironman' %>
 </header>
 <section id="main">
+  <%= form_tag characters_path, method: :get do %>
+    <%= text_field_tag :query,
+      params[:query],
+      class: "form-search",
+      placeholder: "Search..."
+    %>
+    <%= submit_tag "Search", class: "btn-search" %>
+  <% end %>
 </section>
