@@ -1,0 +1,78 @@
+header {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #0a2a43, transparent);
+    z-index: 101;
+  }
+}
+
+.test-sec {
+  position: relative;
+  padding: 100px;
+
+  h2 {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: white;
+  }
+}
+
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+#moon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+}
+
+#cloud1 {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  max-width: 600px;
+}
+
+#cloud2 {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  max-width: 600px;
+}
+
+#jet {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  max-width: 100%;
+  transform: scale(0);
+}
+
+#ironman {
+  position: absolute;
+  top: -120%;
+  width: 100%;
+  z-index: 1001;
+}
