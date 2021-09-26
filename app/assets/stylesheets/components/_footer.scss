@@ -1,0 +1,19 @@
+footer {
+  padding: 10px 0;
+}
+
+.f-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-links,
+.f-credits {
+  display: flex;
+  align-items: center;
+}
+
+#f-icon {
+  width: 22px;
+  height: 22px;
+}

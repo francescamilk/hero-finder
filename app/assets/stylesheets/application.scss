@@ -1,7 +1,11 @@
 // Graphical variables
-@import 'config/fonts';
 @import 'config/colors';
+@import 'config/fonts';
 @import 'config/reset';
+@import 'config/layout';
 
 // CSS partials
 @import 'components/index';
+
+// CSS 4Pages
+@import 'pages/home'

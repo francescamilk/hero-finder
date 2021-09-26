@@ -2,6 +2,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #0a2a43;
+  background-color: $mWhite;
   overflow-x: hidden;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: $textMain;
 }
