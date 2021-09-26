@@ -52,4 +52,4 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem 'simple_form'
 gem 'marvel_api'
 gem 'jquery-rails'
-gem 'pg_search', '~> 2.3.0'
+# gem 'pg_search', '~> 2.3.0'
