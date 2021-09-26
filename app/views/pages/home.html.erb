@@ -7,12 +7,18 @@
   <%= image_tag 'ironman.png', id: 'ironman' %>
 </header>
 <section id="main">
-  <%= form_tag result_index_path, method: :get do %>
-    <%= text_field_tag :query,
-      params[:query],
-      class: "form-search",
-      placeholder: "Search..."
-    %>
-    <%= submit_tag "Search", class: "btn-search" %>
-  <% end %>
+  <div class="container">
+    <div class="search">
+      <%= form_tag result_index_path, method: :get, class: 'form-search' do %>
+        <%= text_field_tag :query,
+            params[:query],
+            class: 'input-search',
+            placeholder: 'Search...'
+          %>
+        <%= button_tag(type: 'submit', class: 'btn-override') do %>
+          <div class="btn-search">GO!</div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
 </section>

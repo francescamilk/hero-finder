@@ -1,5 +1,4 @@
 footer {
-  padding: 10px 0;
   height: 10vh;
   max-height: 10vh;
 }
@@ -11,8 +10,7 @@ footer {
 
 .f-links,
 .f-credits {
-  display: flex;
-  align-items: center;
+  @include flex-centerer;
   
   p,
   a {

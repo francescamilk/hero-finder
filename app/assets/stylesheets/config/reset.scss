@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: $mBlue;
+  background-color: $mBlack;
+  font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
 }
 
@@ -27,4 +28,25 @@ h5,
 h6,
 p {
   color: $textMain;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 0;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+// Overrider classes
+.btn-override {
+  border: none;
+  background: none;
+  color: transparent;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
