@@ -9,7 +9,7 @@
 <section id="main">
   <div class="container">
     <div class="search" data-controller="refresh-list">
-      <%= form_with url: result_index_path, method: :get, html: { class: 'form-search', data: { refresh_list_target: 'form' } } do |f| %>
+      <%= form_with url: root_path, method: :get, html: { class: 'form-search', data: { refresh_list_target: 'form' } } do |f| %>
         <%= f.text_field :query,
                      class: "input-search",
                      placeholder: 'Search...',

@@ -7,8 +7,8 @@ class PagesController < ApplicationController
     
     
     respond_to do |format|
-      format.html # Follow regular flow of Rails
-      format.text { render partial: 'list.html', locals: { movies: @movies } }
+      format.html
+      format.text { render partial: 'list.html' }
     end
   end
 end
