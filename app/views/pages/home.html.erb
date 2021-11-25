@@ -8,21 +8,21 @@
 </header>
 <section id="main">
   <div class="container">
-    <div class="search" data-controller="refresh-list">
+    <div data-controller="refresh-list">
       <%= form_with url: root_path, method: :get, html: { class: 'form-search', data: { refresh_list_target: 'form' } } do |f| %>
         <%= f.text_field :query,
-                     class: "input-search",
-                     placeholder: 'Search...',
-                     value: params[:query],
-                     data: {
-                      refresh_list_target: 'searchInput',
-                      action: "keyup->refresh-list#update"
-                    } %>
+                 class: "input-search",
+                 placeholder: 'Search...',
+                 value: params[:query],
+                 data: {
+                  refresh_list_target: 'searchInput',
+                  action: "keyup->refresh-list#update" 
+                } %>
         <%= button_tag(type: 'submit', class: 'btn-override') do %>
           <div class="btn-search">GO!</div>
         <% end %>
       <% end %>
+      <%= render 'list' %>
     </div>
   </div>
 </section>
-<%= render 'list' %>
