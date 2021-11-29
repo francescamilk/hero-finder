@@ -24,10 +24,10 @@
       <% end %>
       <div class="flex-centerer">
         <div class="search-filters">
-          <p class="filter-active">ALL</p>
-          <p>CHARACTERS</p>
-          <p>COMICS</p>
-          <p>AUTHORS</p>
+          <p><%= link_to 'ALL', root_path(cat: 'all'), class: 'filter-active' %></p>
+          <p><%= link_to 'CHARACTERS', root_path(cat: 'chr') %></p>
+          <p><%= link_to 'COMICS', root_path(cat: 'cmc') %></p>
+          <p><%= link_to 'CREATORS', root_path(cat: 'crt') %></p>
         </div>
       </div>
       <%= render 'list' %>

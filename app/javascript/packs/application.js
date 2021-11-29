@@ -22,4 +22,5 @@ import { scrollAnimation } from "../plugins/init_scrollAnimation";
 document.addEventListener('turbolinks:load', () => {
   scrollAnimation();
 });
+
 import "controllers"
